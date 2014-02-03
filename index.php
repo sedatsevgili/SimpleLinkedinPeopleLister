@@ -28,9 +28,10 @@ $linkedin->setAccessToken($_SESSION['token']);
 try {
     $people = $linkedin->get('people/~/connections');
 } catch (\Exception $exception) {
-    unset($_SESSION);
-    session_write_close();
+    session_unset();
+    session_destroy();
     header("Location: index.php");
+    exit;
 }
 
 header('Content-Type: application/json');
