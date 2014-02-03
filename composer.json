@@ -1,0 +1,5 @@
+{
+	"require": {
+		"linkedinapi/linkedin": "1.0.2"
+	}
+}

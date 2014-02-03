@@ -1,0 +1,48 @@
+[
+    {
+        "name": "linkedinapi/linkedin",
+        "version": "1.0.2",
+        "version_normalized": "1.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ashwinks/PHP-LinkedIn-SDK.git",
+            "reference": "77642ecf0c2536e45184a97637061e1ce62dc4ae"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ashwinks/PHP-LinkedIn-SDK/zipball/77642ecf0c2536e45184a97637061e1ce62dc4ae",
+            "reference": "77642ecf0c2536e45184a97637061e1ce62dc4ae",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2014-01-16 01:13:03",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "LinkedIn": "."
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Ashwin Surajbali",
+                "email": "ashwin@redinkdesign.net",
+                "homepage": "http://www.redinkdesign.co"
+            }
+        ],
+        "description": "PHP LinkedIn SDK",
+        "homepage": "https://github.com/ashwinks/PHP-LinkedIn-SDK",
+        "keywords": [
+            "api",
+            "api client",
+            "linkedin",
+            "rest"
+        ]
+    }
+]
